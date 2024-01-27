@@ -4,9 +4,9 @@ class Storage {
     constructor(items) {
         this.#items = items
     }
-   getItems() { return this.#items};
+    getItems() { return this.#items};
     
-     addItem(newItem) {
+    addItem(newItem) {
         this.#items = this.#items.concat(newItem)
     };
 
